@@ -1,7 +1,5 @@
 .homeImg {
-  background-image: url("./assets/Switzerland.jpeg");
-  background-size: 1000px 750px;
-  background-repeat: no-repeat;
+  background: #d0e4f5 url("./assets/Switzerland.jpeg") no-repeat scroll 50% 50%;
 }
 .addShadow {
   -webkit-box-shadow: 5px 5px 15px 5px #000000;
