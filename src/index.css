@@ -3,3 +3,7 @@
   background-size: 1000px 750px;
   background-repeat: no-repeat;
 }
+.addShadow {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
