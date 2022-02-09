@@ -2,11 +2,11 @@ var axios = require("axios").default;
 
 var options = {
   method: "GET",
-  url: "https://hotels4.p.rapidapi.com/locations/v2/search",
+  url: process.env.VUE_APP_SEARCH_URL,
   params: { query: "new york", locale: "en_US", currency: "USD" },
   headers: {
-    "x-rapidapi-host": "hotels4.p.rapidapi.com",
-    "x-rapidapi-key": "e13027cccdmshb792f813a512a15p19ce40jsnf802d29ef038",
+    "x-rapidapi-host": process.env.VUE_APP_HOST_HEADER,
+    "x-rapidapi-key": process.env.VUE_APP_HOST_HEADER_KEY,
   },
 };
 
