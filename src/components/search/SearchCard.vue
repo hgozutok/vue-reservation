@@ -42,7 +42,7 @@
             <datalist id="datalistOptions">
               <!-- locations.map(location => { return (
               <option value="location.destinationId">
-                {{ location.name }}
+                {{ location.name }} 
               </option>
               ); }) -->
               <option value="San Francisco"></option>
