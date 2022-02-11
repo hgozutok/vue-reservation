@@ -8,6 +8,7 @@
         class="nav nav-masthead justify-content-center float-md-end"
       >
         <router-link class="nav-link active" to="/">Home</router-link>
+        <router-link class="nav-link" to="/search">Search</router-link>
         <router-link class="nav-link" to="/about">About</router-link>
       </nav>
     </div>

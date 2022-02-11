@@ -1,7 +1,26 @@
 .homeImg {
-  background: #d0e4f5 url("./assets/Switzerland.jpeg") no-repeat scroll 50% 50%;
+  background: linear-gradient(
+      -177deg,
+      rgba(0, 0, 0, 0.08),
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url("./assets/Switzerland.jpeg") bottom / cover no-repeat;
+  /* background: #d0e4f5 url("./assets/Switzerland.jpeg") no-repeat scroll 50% 50%; */
 }
 .addShadow {
   -webkit-box-shadow: 5px 5px 15px 5px #000000;
   box-shadow: 5px 5px 15px 5px #000000;
+}
+.guestsImg {
+  background: linear-gradient(rgba(0, 0, 0, 0.74) 0%, rgba(0, 0, 0, 0.74) 99%),
+    url("./assets/img4.jpeg") center / cover no-repeat, #636060;
+}
+.imghover:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
 }

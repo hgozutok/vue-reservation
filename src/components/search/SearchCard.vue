@@ -1,6 +1,15 @@
 <template>
-  <div class="row addShadow">
-    <form>
+  <div class="row addShadow rounded">
+    <form
+      class="d-flex flex-column justify-content-center align-items-center"
+      method="post"
+      style="
+        background: rgba(255, 255, 255, 0.49);
+
+        margin: 0px;
+        border-top: 5px solid #fca311;
+      "
+    >
       <fieldset>
         <legend class="text-success">SEARCH HOTEL</legend>
       </fieldset>
@@ -19,12 +28,32 @@
                 ></path>
               </svg>
             </div>
+            <label for="exampleDataList" class="form-label"
+              >Select Location</label
+            >
             <input
+              @keyup="getLocations"
+              @v-model="query"
+              class="form-control"
+              list="datalistOptions"
+              id="exampleDataList"
+              placeholder="Where are you travelling?"
+            />
+            <datalist id="datalistOptions">
+              <!-- locations.map(location => { return (
+              <option value="location.destinationId">
+                {{ location.name }}
+              </option>
+              ); }) -->
+              <option value="San Francisco"></option>
+            </datalist>
+
+            <!-- <input
               class="col-md-8"
               id="search"
               type="text"
               placeholder="Where are you travelling?"
-            />
+            /> -->
           </div>
         </fieldset>
         <fieldset>
@@ -98,7 +127,7 @@
           </div>
         </fieldset>
         <div class="mb-3 input-field fifth-wrap">
-          <button class="btn-primary" type="button">SEARCH</button>
+          <button class="btn-primary rounded" type="button">SEARCH</button>
         </div>
       </div>
     </form>
@@ -106,8 +135,28 @@
 </template>
 
 <script>
+import SearchHotel from "../../services/SearchHotel";
+
 export default {
   name: "SearchCard",
+  data() {
+    return {
+      locations: [],
+      query: "Ankara",
+    };
+  },
+
+  methods: {
+    getLocations() {
+      SearchHotel.search(this.query).then((response) => {
+        console.log(response);
+        response.suggestions.forEach((element) => {
+          this.locations = [...this.locations, ...element.entities];
+          // console.log({ ...this.locations, ...element.entities });
+        });
+      });
+    },
+  },
 };
 </script>
 
