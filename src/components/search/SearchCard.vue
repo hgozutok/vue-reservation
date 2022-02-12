@@ -28,32 +28,18 @@
                 ></path>
               </svg>
             </div>
-            <label for="exampleDataList" class="form-label"
-              >Select Location</label
-            >
-            <input
-              @keyup="getLocations"
-              @v-model="query"
-              class="form-control"
-              list="datalistOptions"
-              id="exampleDataList"
-              placeholder="Where are you travelling?"
-            />
-            <datalist id="datalistOptions">
-              <!-- locations.map(location => { return (
-              <option value="location.destinationId">
-                {{ location.name }} 
-              </option>
-              ); }) -->
-              <option value="San Francisco"></option>
-            </datalist>
-
-            <!-- <input
+            <AutoComplete
               class="col-md-8"
-              id="search"
-              type="text"
-              placeholder="Where are you travelling?"
-            /> -->
+              v-model="query"
+              :suggestions="locationsAC"
+              @complete="getLocations($event)"
+              placeholder="Where are you
+            travelling?"
+              field="name"
+              @item-select="() => {}"
+            />
+
+            <!-- {{ query.value }} -->
           </div>
         </fieldset>
         <fieldset>
@@ -73,7 +59,7 @@
             <input
               class="col-md-8 datepicker"
               id="depart"
-              type="text"
+              type="date"
               placeholder="29 Aug 2022"
             />
           </div>
@@ -95,7 +81,7 @@
             <input
               class="col-md-8 datepicker"
               id="return"
-              type="text"
+              type="date"
               placeholder="30 Aug 2022"
             />
           </div>
@@ -119,7 +105,8 @@
               data-trigger=""
               name="choices-single-default"
             >
-              <option placeholder="">2 Adults</option>
+              <option placeholder="" value="1">1 Adult</option>
+              <option>2 Adults</option>
               <option>3 Adults</option>
               <option>4 Adults</option>
               <option>5 Adults</option>
@@ -127,7 +114,24 @@
           </div>
         </fieldset>
         <div class="mb-3 input-field fifth-wrap">
-          <button class="btn-primary rounded" type="button">SEARCH</button>
+          <button
+            @click="
+              () => {
+                this.$router.push({
+                  path: '/search',
+                  query: { location: 'test' },
+                });
+              }
+            "
+            class="btn-primary rounded"
+            type="button"
+          >
+            SEARCH
+          </button>
+
+          <!-- <router-link :to={ name: 'search', params: { location: 'test' } }>{{
+            "query.name"
+          }}</router-link> -->
         </div>
       </div>
     </form>
@@ -136,26 +140,44 @@
 
 <script>
 import SearchHotel from "../../services/SearchHotel";
+import AutoComplete from "primevue/autocomplete";
+import { ref } from "vue";
+// import { FilterService, FilterMatchMode } from "primevue/api";
 
 export default {
   name: "SearchCard",
-  data() {
-    return {
-      locations: [],
-      query: "Ankara",
-    };
+  components: {
+    AutoComplete,
   },
+  setup() {
+    // const { ref } = Vue;
+    var locations = ref([]);
+    var locationsAC = ref([]);
+    var selectedLocation = ref({});
+    var query = ref("Berlin");
 
-  methods: {
-    getLocations() {
-      SearchHotel.search(this.query).then((response) => {
-        console.log(response);
+    const getLocations = () => {
+      locations.value = [""];
+      locationsAC.value = [""];
+
+      SearchHotel.search(query.value).then((response) => {
+        // console.log(response);
+        locationsAC.value = [""];
         response.suggestions.forEach((element) => {
-          this.locations = [...this.locations, ...element.entities];
-          // console.log({ ...this.locations, ...element.entities });
+          locations.value = [...element.entities];
+
+          locations.value.forEach((element) => {
+            locationsAC.value.push({
+              name: element.name,
+              value: element.destinationId,
+            });
+          });
         });
+
+        // console.log(locationsAC.value);
       });
-    },
+    };
+    return { locations, locationsAC, selectedLocation, getLocations, query };
   },
 };
 </script>

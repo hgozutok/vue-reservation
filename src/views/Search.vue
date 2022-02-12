@@ -63,6 +63,7 @@
       </div>
     </div>
   </div>
+  {{ this.$route.query.location }}
 </template>
 
 <script>
@@ -74,6 +75,11 @@ export default {
   components: {
     Navbar,
   },
+
+  mounted() {
+    console.log(this.$route.query.location);
+  },
+
   //searh hole via api
   data() {
     return {
