@@ -62,6 +62,39 @@ class SearchHotel {
 
     return results;
   }
+  async getPropertiesList(destinationId, checkIn, checkOut, adults1) {
+    var results = null;
+
+    await axios
+      .get(process.env.VUE_APP_SEARCH_AS_LIST_URL, {
+        headers: {
+          "x-rapidapi-host": process.env.VUE_APP_HOST_HEADER,
+          "x-rapidapi-key": process.env.VUE_APP_HOST_HEADER_KEY,
+        },
+        params: {
+          destinationId: destinationId,
+          pageNumber: "1",
+          pageSize: "25",
+          checkIn: checkIn,
+          checkOut: checkOut,
+          adults1: adults1,
+          sortOrder: "PRICE",
+          locale: "en_US",
+          currency: "USD",
+        },
+      })
+      .then((response) => {
+        results = response.data;
+        return results;
+        //   console.log(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+        return null;
+      });
+
+    return results;
+  }
 }
 
 export default new SearchHotel();

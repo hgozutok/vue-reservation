@@ -4,108 +4,102 @@
       <Navbar />
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container">
     <h1>SEARCH BEST HOTELS</h1>
-    <input
-      type="text"
-      v-model="query"
-      class="form-control"
-      placeholder="Search..."
-    />
-    <button type="button" class="btn btn-primary" @click="searchHotel">
-      SEARCH
-    </button>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div
-        v-bind:key="index"
-        class="col-md-4"
-        v-for="(location, index) in locations"
-      >
-        <div class="card" style="width: 18rem">
-          <!-- <img
-            :src="
-              hotel.hotelImages && hotel.hotelImages.length
-                ? hotel.hotelImages[0].baseUrl.replace(
-                    '{size}',
-                    hotel.hotelImages[0].sizes[0].suffix
-                  )
-                : '../assets/noroom.png'
-            "
-            class="card-img-top"
-            alt="..."
-            style="height: 200px"
-          /> -->
-          <div class="card-body">
-            <h5 class="card-title">{{ location.name }}</h5>
-            <!-- <p class="card-text">{{ location.description }}</p> -->
-            <a href="#" class="btn btn-primary">Search here</a>
+    <SearchCard />
+
+    <div class="container">
+      <h2>Results</h2>
+      <div class="row">
+        <div v-bind:key="index" class="row" v-for="(hotel, index) in hotels">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top rounded"
+                v-bind:src="hotel.optimizedThumbUrls.srpDesktop"
+                alt="Card image cap"
+              />
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="card-title">
+              <router-link :to="{ name: 'Hotels', params: { id: hotel.id } }">
+                {{ hotel.name }}
+              </router-link>
+            </h3>
+
+            <h5 class="card-title">
+              {{ hotel.address.streetAddress }}-
+              {{ hotel.address.locality }}
+            </h5>
+
+            <a href="#" class="btn btn-primary">
+              Book Now <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <div>
+              {{ hotel.ratePlan.price.current }}
+              Stars: {{ hotel.starRating }}
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="row">
-        <label for="DataList" class="form-label">Select Place</label>
-        <input
-          class="form-control"
-          list="datalistOptions"
-          id="DataList"
-          placeholder="Type to search..."
-        />
-        <datalist id="datalistOptions">
-          <option value="San Francisco"></option>
-          <option value="New York"></option>
-          <option value="Seattle"></option>
-          <option value="Los Angeles"></option>
-          <option value="Chicago"></option>
-        </datalist>
-      </div>
     </div>
   </div>
-  {{ this.$route.query.location }}
 </template>
 
 <script>
+import { onMounted } from "@vue/runtime-core";
 import Navbar from "../components/nav/Navbar.vue";
+import SearchCard from "../components/search/SearchCard.vue";
 import SearchHotel from "../services/SearchHotel";
+import { useRoute } from "vue-router";
+import { ref } from "vue";
 
 export default {
   name: "Search",
   components: {
     Navbar,
+    SearchCard,
   },
+  setup() {
+    const route = useRoute();
+    var location = ref(route.query.location);
+    var departDate = ref(route.query.departDate);
+    var returnDate = ref(route.query.returnDate);
+    var adults = ref(route.query.adults);
+    var properties = ref([]);
+    var hotels = ref([]);
 
-  mounted() {
-    console.log(this.$route.query.location);
-  },
-
-  //searh hole via api
-  data() {
-    return {
-      locations: [],
-
-      query: "Berlin",
-    };
-  },
-  methods: {
-    searchHotel() {
-      this.locations = [];
-      SearchHotel.search(this.query).then((response) => {
-        console.log(response);
-        response.suggestions.forEach((element) => {
-          this.locations = [...this.locations, ...element.entities];
-          // console.log({ ...this.locations, ...element.entities });
+    const getPropertiesList = async () => {
+      SearchHotel.getPropertiesList(
+        location.value,
+        departDate.value,
+        returnDate.value,
+        adults.value
+      ).then((response) => {
+        properties.value = response.data;
+        properties.value.body.searchResults.results.forEach((hotel) => {
+          hotels.value.push(hotel);
         });
-        // this.hotels.forEach((hotel) => {
-        //   SearchHotel.getHotelImages(hotel.destinationId).then((response) => {
-        //     console.log(response);
-        //     hotel.hotelImages = response.data.hotelImages; //[0].baseUrl
-        //     console.log(this.hotelImages);
-        //   });
-        // });
+        console.log(response);
+        console.log(hotels.value[0].optimizedThumbUrls.srpDesktop);
       });
-    },
+    };
+    onMounted(() => {
+      getPropertiesList();
+    });
+    return {
+      location,
+      departDate,
+      returnDate,
+      adults,
+      properties,
+      hotels,
+      getPropertiesList,
+    };
   },
 };
 </script>

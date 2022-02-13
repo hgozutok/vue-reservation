@@ -30,7 +30,7 @@
             </div>
             <AutoComplete
               class="col-md-8"
-              v-model="query"
+              v-model="query.label"
               :suggestions="locationsAC"
               @complete="getLocations($event)"
               placeholder="Where are you
@@ -58,7 +58,7 @@
             </div>
             <input
               class="col-md-8 datepicker"
-              id="depart"
+              v-model="departDate"
               type="date"
               placeholder="29 Aug 2022"
             />
@@ -80,6 +80,7 @@
             </div>
             <input
               class="col-md-8 datepicker"
+              v-model="returnDate"
               id="return"
               type="date"
               placeholder="30 Aug 2022"
@@ -104,9 +105,14 @@
               class="col-md-8"
               data-trigger=""
               name="choices-single-default"
+              v-model="adults"
+              v-bind="{
+                value: adults,
+                placeholder: 'Adults',
+              }"
             >
               <option placeholder="" value="1">1 Adult</option>
-              <option>2 Adults</option>
+              <option value="2">2 Adults</option>
               <option>3 Adults</option>
               <option>4 Adults</option>
               <option>5 Adults</option>
@@ -115,14 +121,7 @@
         </fieldset>
         <div class="mb-3 input-field fifth-wrap">
           <button
-            @click="
-              () => {
-                this.$router.push({
-                  path: '/search',
-                  query: { location: 'test' },
-                });
-              }
-            "
+            @click="handleSearch()"
             class="btn-primary rounded"
             type="button"
           >
@@ -142,6 +141,8 @@
 import SearchHotel from "../../services/SearchHotel";
 import AutoComplete from "primevue/autocomplete";
 import { ref } from "vue";
+import { useRouter } from "vue-router";
+
 // import { FilterService, FilterMatchMode } from "primevue/api";
 
 export default {
@@ -150,11 +151,27 @@ export default {
     AutoComplete,
   },
   setup() {
-    // const { ref } = Vue;
+    const router = useRouter();
+    // const route = useRoute()
+
     var locations = ref([]);
     var locationsAC = ref([]);
     var selectedLocation = ref({});
-    var query = ref("Berlin");
+    //var query = ref("Berlin");
+    var query = ref({ label: "Berlin", value: 332483 });
+    var today = new Date();
+    var thisMonth = today.getMonth() + 1;
+
+    var date =
+      today.getFullYear() +
+      "-" +
+      (thisMonth < 10 ? "0" + thisMonth : thisMonth) +
+      "-" +
+      (today.getDate() + 1);
+
+    var departDate = ref(new Date().toISOString().slice(0, 10));
+    var returnDate = ref(date);
+    var adults = ref("1");
 
     const getLocations = () => {
       locations.value = [""];
@@ -177,7 +194,30 @@ export default {
         // console.log(locationsAC.value);
       });
     };
-    return { locations, locationsAC, selectedLocation, getLocations, query };
+
+    const handleSearch = () => {
+      router.push({
+        path: "/search",
+        query: {
+          location: query.value.value,
+          departDate: departDate.value,
+          leaveDate: returnDate.value,
+          adults: adults.value,
+        },
+      });
+    };
+
+    return {
+      locations,
+      locationsAC,
+      selectedLocation,
+      getLocations,
+      departDate,
+      returnDate,
+      adults,
+      query,
+      handleSearch,
+    };
   },
 };
 </script>
