@@ -1,0 +1,2508 @@
+{
+    "result": "OK",
+    "data": {
+        "body": {
+            "header": "Berlin, Germany",
+            "query": {
+                "destination": {
+                    "id": "332483",
+                    "value": "Berlin, Germany",
+                    "resolvedLocation": "CITY:332483:UNKNOWN:UNKNOWN"
+                }
+            },
+            "searchResults": {
+                "totalCount": 1722,
+                "results": [
+                    {
+                        "id": 387452,
+                        "name": "Heart of Gold Hostel Berlin",
+                        "starRating": 1.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Johannisstr. 11",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10117",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.6,
+                            "rating": "8.6",
+                            "total": 59,
+                            "scale": 10,
+                            "badge": "fabulous",
+                            "badgeText": "Fabulous"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.9 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "0.9 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$15",
+                                "exactCurrent": 14.72
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Mitte",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "coordinate": {
+                            "lat": 52.524389,
+                            "lon": 13.391828
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 4538932,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4540000/4539000/4538932/97ba584a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 360098,
+                        "name": "Metropol Hostel Berlin",
+                        "starRating": 2,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Mehringdamm 32",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10961",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 5.6,
+                            "rating": "5.6",
+                            "total": 22,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "2.1 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "2.2 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$21",
+                                "exactCurrent": 20.92,
+                                "old": "$24"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Kreuzberg",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 52.493649,
+                            "lon": 13.38806
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 3911650,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/4000000/3920000/3911700/3911650/6b44a839_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 477632,
+                        "name": "The Circus Hostel",
+                        "starRating": 2,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Weinbergsweg 1a",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10119",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 9,
+                            "rating": "9.0",
+                            "total": 107,
+                            "scale": 10,
+                            "badge": "superb",
+                            "badgeText": "Superb"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "2.4 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "0.7 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$29",
+                                "exactCurrent": 29.1,
+                                "old": "$32"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Mitte",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 52.530192,
+                            "lon": 13.401727
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 9277019,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/10000000/9280000/9277100/9277019/c0d79fcb_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 1182012256,
+                        "name": "Ootel.co",
+                        "starRating": 0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Allee der Kosmonauten 32",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "12681",
+                            "region": "Berlin",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 4,
+                            "rating": "4.0",
+                            "total": 203,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "7.6 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "4.9 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$33",
+                                "exactCurrent": 32.97,
+                                "old": "$41"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Marzahn",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 52.5251,
+                            "lon": 13.5301
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 36906633,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/37000000/36910000/36906700/36906633/e7b58a87_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 558976,
+                        "name": "CLUB Lodges Berlin Mitte - Hostel",
+                        "starRating": 2,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Caroline-Michaelis-Straße 8",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10115",
+                            "region": "",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.8,
+                            "rating": "7.8",
+                            "total": 81,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "2.0 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "1.5 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$35",
+                                "exactCurrent": 35.26
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Mitte",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 52.53399,
+                            "lon": 13.3834
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 12750584,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/13000000/12760000/12750600/12750584/487724a4_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 634390016,
+                        "name": "Easy Lodges",
+                        "starRating": 1.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Columbiadamm 160",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10965",
+                            "region": "",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.2,
+                            "rating": "7.2",
+                            "total": 9,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "3.6 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "2.9 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$37",
+                                "exactCurrent": 36.97
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Neukoelln",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "coordinate": {
+                            "lat": 52.47998,
+                            "lon": 13.41616
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 19793438,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/20000000/19800000/19793500/19793438/1d7847d6_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 391514,
+                        "name": "Icke Apartments",
+                        "starRating": 2,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Danckelmannstr. 35",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "14059",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6,
+                            "rating": "6.0",
+                            "total": 10,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "2.5 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "5.1 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$39",
+                                "exactCurrent": 39.24
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Charlottenburg",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "coordinate": {
+                            "lat": 52.511694,
+                            "lon": 13.291478
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 4618995,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4620000/4619000/4618995/687bdfad_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 2369230208,
+                        "name": "The Hidden",
+                        "starRating": 3.5,
+                        "urls": {},
+                        "address": {
+                            "locality": "Berlin",
+                            "region": "",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.5 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "2.9 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$40",
+                                "exactCurrent": 40.15
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Schoeneberg",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "D13|HRW",
+                        "coordinate": {
+                            "lat": 52.493711,
+                            "lon": 13.36037
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 74007194,
+                        "vrBadge": "Cottage",
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/75000000/74010000/74007200/74007194/f00e2312_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 2369234432,
+                        "name": "Beautiful Room in Schonenberg",
+                        "starRating": 0,
+                        "urls": {},
+                        "address": {
+                            "locality": "Berlin",
+                            "region": "",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.5 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "2.9 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$40",
+                                "exactCurrent": 40.15
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Schoeneberg",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "D13|HRW",
+                        "coordinate": {
+                            "lat": 52.493711,
+                            "lon": 13.36037
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 74007326,
+                        "vrBadge": "Apartment",
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/75000000/74010000/74007400/74007326/6a259927_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 203117,
+                        "name": "Novum Hotel Gates Berlin Charlottenburg",
+                        "starRating": 3,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Knesebeckstr. 8-9",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10623",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.4,
+                            "rating": "8.4",
+                            "total": 591,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.2 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "3.9 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$41",
+                                "exactCurrent": 40.8,
+                                "old": "$45"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "West Berlin Centre",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 52.509628,
+                            "lon": 13.322702
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 42249,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/50000/42300/42249/66e55edc_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 197485,
+                        "name": "a&o Berlin Kolumbus",
+                        "starRating": 2.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Genslerstraße 18",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "13055",
+                            "region": "",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7,
+                            "rating": "7.0",
+                            "total": 159,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "6.5 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "3.8 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$41",
+                                "exactCurrent": 41.1
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Hohenschoenhausen",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 52.539111,
+                            "lon": 13.498975
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 796459,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/800000/796500/796459/dc30e26c_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 549905,
+                        "name": "Hotel Karlshorst",
+                        "starRating": 3,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Treskowallee 89",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10318",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.2,
+                            "rating": "6.2",
+                            "total": 311,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "7.7 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "5.4 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$42",
+                                "exactCurrent": 41.84,
+                                "old": "$52"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Karlshorst",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 52.484259,
+                            "lon": 13.526282
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 11331583,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/12000000/11340000/11331600/11331583/62d0a26b_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 211436,
+                        "name": "Generator Berlin Prenzlauer Berg",
+                        "starRating": 2,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Storkower Strasse 160",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10407",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.8,
+                            "rating": "6.8",
+                            "total": 191,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "4.6 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "1.9 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$42",
+                                "exactCurrent": 42.26
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Prenzlauer Berg",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|increaseNumberOfReviewsRequired|TESCO",
+                        "coordinate": {
+                            "lat": 52.52978,
+                            "lon": 13.45684
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 1110031,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1120000/1110100/1110031/77b15c8f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 478524,
+                        "name": "Hotel Atlantic Berlin",
+                        "starRating": 3,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Zadekstraße 1a",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "12351",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.4,
+                            "rating": "7.4",
+                            "total": 48,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "7.1 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "6.2 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$42",
+                                "exactCurrent": 42.26
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Neukoelln",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "coordinate": {
+                            "lat": 52.437363,
+                            "lon": 13.462307
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 9307808,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/10000000/9310000/9307900/9307808/96364dce_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 134457,
+                        "name": "Novum Hotel Kronprinz Berlin",
+                        "starRating": 4,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Kronprinzendamm 1",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10711",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8,
+                            "rating": "8.0",
+                            "total": 337,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "2.9 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "5.6 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$43",
+                                "exactCurrent": 43.09,
+                                "old": "$48"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Halensee",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|HRW|TESCO",
+                        "coordinate": {
+                            "lat": 52.497154,
+                            "lon": 13.2865
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 441302,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/450000/441400/441302/717e5232_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 450587,
+                        "name": "Hotel Amadeus Central",
+                        "starRating": 0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Hohenzollerndamm 57",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "14199",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.4,
+                            "rating": "6.4",
+                            "total": 31,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "2.9 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "5.4 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$43",
+                                "exactCurrent": 43.32
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Schmargendorf",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "coordinate": {
+                            "lat": 52.486282,
+                            "lon": 13.297335
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 7510476,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/8000000/7520000/7510500/7510476/4a45bfc7_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 303749,
+                        "name": "Mikon Eastgate Hotel",
+                        "starRating": 3,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Hessische Straße 10",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10115",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8,
+                            "rating": "8.0",
+                            "total": 24,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.6 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "1.5 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$43",
+                                "exactCurrent": 43.32
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Mitte",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "coordinate": {
+                            "lat": 52.5289,
+                            "lon": 13.38007
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 2538045,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2540000/2538100/2538045/0c1873b4_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 228083,
+                        "name": "Hotel Bellevue am Kurfürstendamm",
+                        "starRating": 0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Emser Strasse 19-20",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10719",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.8,
+                            "rating": "6.8",
+                            "total": 71,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.8 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "4.3 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$43",
+                                "exactCurrent": 43.32
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Wilmersdorf",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 52.49611,
+                            "lon": 13.31995
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 1187218,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1190000/1187300/1187218/276ab5ef_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 499936,
+                        "name": "Pension Schwalbenweg",
+                        "starRating": 2.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Schwalbenweg 7",
+                            "extendedAddress": "",
+                            "locality": "Schoenefeld",
+                            "postalCode": "12529",
+                            "region": "",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7,
+                            "rating": "7.0",
+                            "total": 38,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "11 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "10 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$43",
+                                "exactCurrent": 43.49
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Schoenefeld",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "coordinate": {
+                            "lat": 52.39717,
+                            "lon": 13.5328
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 10250651,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/11000000/10260000/10250700/10250651/8ff0fd80_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 397586,
+                        "name": "Hotel Bohemia by Vivere Stays",
+                        "starRating": 3,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Karl-Marx-Str. 262",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "12057",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.4,
+                            "rating": "7.4",
+                            "total": 20,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "5.1 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "4.1 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$44",
+                                "exactCurrent": 43.77,
+                                "old": "$49"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Neukoelln",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 52.465521,
+                            "lon": 13.442301
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 4783348,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4790000/4783400/4783348/32a6c6d5_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 203887,
+                        "name": "Novum Hotel Aldea Berlin Centrum",
+                        "starRating": 3,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Bülowstraße 20-22",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10783",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.6,
+                            "rating": "7.6",
+                            "total": 1417,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.2 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "2.7 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$45",
+                                "exactCurrent": 44.57,
+                                "old": "$50"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Schoeneberg",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 52.497963,
+                            "lon": 13.360642
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 876313,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/880000/876400/876313/405aa324_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 218533,
+                        "name": "Novum Hotel Lichtburg Berlin am Kurfürstendamm",
+                        "starRating": 0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Paderborner Straße 10",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10709",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.4,
+                            "rating": "7.4",
+                            "total": 348,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "2.1 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "4.8 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$45",
+                                "exactCurrent": 45.05,
+                                "old": "$50"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Wilmersdorf",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 52.497095,
+                            "lon": 13.307361
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 920732,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/930000/920800/920732/fa805b36_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 252625,
+                        "name": "Novum Hotel City B Berlin Centrum",
+                        "starRating": 3,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Potsdamer Str. 129",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10783",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.8,
+                            "rating": "7.8",
+                            "total": 766,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.2 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "2.7 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$46",
+                                "exactCurrent": 46.05,
+                                "old": "$51"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Schoeneberg",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|priceRangeAU|HRW|TESCO",
+                        "coordinate": {
+                            "lat": 52.49763,
+                            "lon": 13.36193
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 1529849,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1530000/1529900/1529849/3d9bfa8f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 438361,
+                        "name": "St Christopher's Berlin Alexanderplatz",
+                        "starRating": 2,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Rosa-Luxemburg-Strasse 39-41",
+                            "extendedAddress": "",
+                            "locality": "Berlin",
+                            "postalCode": "10178",
+                            "region": "BE",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.2,
+                            "rating": "8.2",
+                            "total": 52,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "2.7 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "0.4 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$46",
+                                "exactCurrent": 46.45,
+                                "old": "$52"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Mitte",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "D13",
+                        "coordinate": {
+                            "lat": 52.526927,
+                            "lon": 13.410771
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 1840084,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1850000/1840100/1840084/febd648c_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 2369235616,
+                        "name": "Modern Room in Schonenberg",
+                        "starRating": 3.5,
+                        "urls": {},
+                        "address": {
+                            "locality": "Berlin",
+                            "region": "",
+                            "countryName": "Germany",
+                            "countryCode": "de",
+                            "obfuscate": false
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.5 miles"
+                            },
+                            {
+                                "label": "Alexanderplatz",
+                                "distance": "2.9 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$46",
+                                "exactCurrent": 46.49
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Schoeneberg",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "D13|HRW",
+                        "coordinate": {
+                            "lat": 52.493711,
+                            "lon": 13.36037
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 74007363,
+                        "vrBadge": "Apartment",
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/75000000/74010000/74007400/74007363/71b0d708_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    }
+                ],
+                "pagination": {
+                    "currentPage": 1,
+                    "pageGroup": "EXPEDIA_IN_POLYGON",
+                    "nextPageStartIndex": 25,
+                    "nextPageNumber": 2,
+                    "nextPageGroup": "EXPEDIA_IN_POLYGON"
+                }
+            },
+            "sortResults": {
+                "options": [
+                    {
+                        "label": "Star rating",
+                        "itemMeta": "star",
+                        "choices": [
+                            {
+                                "label": "Stars (high to low)",
+                                "value": "STAR_RATING_HIGHEST_FIRST",
+                                "selected": false
+                            },
+                            {
+                                "label": "Stars (low to high)",
+                                "value": "STAR_RATING_LOWEST_FIRST",
+                                "selected": false
+                            }
+                        ],
+                        "enhancedChoices": []
+                    },
+                    {
+                        "label": "Distance",
+                        "itemMeta": "distance",
+                        "choices": [
+                            {
+                                "label": "Distance to city center",
+                                "value": "DISTANCE_FROM_LANDMARK",
+                                "selected": false
+                            }
+                        ],
+                        "enhancedChoices": [
+                            {
+                                "label": "Landmarks",
+                                "itemMeta": "landmarks",
+                                "choices": [
+                                    {
+                                        "label": "City center",
+                                        "id": 332483
+                                    },
+                                    {
+                                        "label": "Alexanderplatz",
+                                        "id": 37
+                                    },
+                                    {
+                                        "label": "Berlin Zoological Garden",
+                                        "id": 1659244
+                                    },
+                                    {
+                                        "label": "Brandenburg Gate",
+                                        "id": 1638543
+                                    },
+                                    {
+                                        "label": "Charite",
+                                        "id": 1727310
+                                    },
+                                    {
+                                        "label": "Checkpoint Charlie",
+                                        "id": 1763937
+                                    },
+                                    {
+                                        "label": "Columbiahalle",
+                                        "id": 1713312
+                                    },
+                                    {
+                                        "label": "Estrel Convention Center",
+                                        "id": 1729125
+                                    },
+                                    {
+                                        "label": "Friedrichstrasse",
+                                        "id": 1701330
+                                    },
+                                    {
+                                        "label": "Gendarmenmarkt",
+                                        "id": 1659267
+                                    },
+                                    {
+                                        "label": "Hackescher Markt",
+                                        "id": 1713314
+                                    },
+                                    {
+                                        "label": "Kurfürstendamm",
+                                        "id": 1774355
+                                    },
+                                    {
+                                        "label": "Mercedes-Benz Arena",
+                                        "id": 1677828
+                                    },
+                                    {
+                                        "label": "Messe Berlin",
+                                        "id": 1726245
+                                    },
+                                    {
+                                        "label": "Museum Island (Museumsinsel)",
+                                        "id": 1677646
+                                    },
+                                    {
+                                        "label": "Olympiastadion",
+                                        "id": 1659129
+                                    },
+                                    {
+                                        "label": "Potsdamer Platz",
+                                        "id": 1644509
+                                    },
+                                    {
+                                        "label": "Tempodrom",
+                                        "id": 1713542
+                                    },
+                                    {
+                                        "label": "Velodrom",
+                                        "id": 1677839
+                                    },
+                                    {
+                                        "label": "Waldbuhne",
+                                        "id": 1740364
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Train stations",
+                                "itemMeta": "stations",
+                                "choices": [
+                                    {
+                                        "label": "Alexanderplatz Station",
+                                        "id": 1702027
+                                    },
+                                    {
+                                        "label": "Berlin Central Station",
+                                        "id": 1713120
+                                    },
+                                    {
+                                        "label": "Berlin East Station",
+                                        "id": 1705313
+                                    },
+                                    {
+                                        "label": "Berlin Frankfurter Allee Station",
+                                        "id": 1701597
+                                    },
+                                    {
+                                        "label": "Berlin-Spandau Station",
+                                        "id": 1704990
+                                    },
+                                    {
+                                        "label": "Flughafen BER - Terminal 5 S-Bahn",
+                                        "id": 1790604
+                                    },
+                                    {
+                                        "label": "Friedrichstraße Station",
+                                        "id": 1705000
+                                    },
+                                    {
+                                        "label": "Heinrich-Heine-Street U-Bahn",
+                                        "id": 1701717
+                                    },
+                                    {
+                                        "label": "Kurfurstendamm U-Bahn",
+                                        "id": 1701511
+                                    },
+                                    {
+                                        "label": "Landsberger Allee Station",
+                                        "id": 1702148
+                                    },
+                                    {
+                                        "label": "Mehringdamm U-Bahn",
+                                        "id": 1701633
+                                    },
+                                    {
+                                        "label": "Olympiastadion S-Bahn",
+                                        "id": 1702189
+                                    },
+                                    {
+                                        "label": "Ostkreuz Station",
+                                        "id": 1702022
+                                    },
+                                    {
+                                        "label": "Potsdamer Place U-Bahn",
+                                        "id": 1701561
+                                    },
+                                    {
+                                        "label": "Potsdamer Platz Station",
+                                        "id": 1701949
+                                    },
+                                    {
+                                        "label": "Rosenthaler Place U-Bahn",
+                                        "id": 1701711
+                                    },
+                                    {
+                                        "label": "Savignyplatz S-Bahn",
+                                        "id": 1702039
+                                    },
+                                    {
+                                        "label": "Sonnenallee S-Bahn",
+                                        "id": 1702155
+                                    },
+                                    {
+                                        "label": "Wittenbergplatz U-Bahn",
+                                        "id": 1701517
+                                    },
+                                    {
+                                        "label": "Zoological Garden Station",
+                                        "id": 1705287
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Airports",
+                                "itemMeta": "airports",
+                                "choices": [
+                                    {
+                                        "label": "Berlin (BER-Brandenburg)",
+                                        "id": 776634368
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Guest rating",
+                        "itemMeta": "rating",
+                        "choices": [
+                            {
+                                "label": "Guest rating",
+                                "value": "GUEST_RATING",
+                                "selected": false
+                            }
+                        ],
+                        "enhancedChoices": []
+                    },
+                    {
+                        "label": "Price",
+                        "itemMeta": "price",
+                        "selectedChoiceLabel": "Price (low to high)",
+                        "choices": [
+                            {
+                                "label": "Price (high to low)",
+                                "value": "PRICE_HIGHEST_FIRST",
+                                "selected": false
+                            },
+                            {
+                                "label": "Price (low to high)",
+                                "value": "PRICE",
+                                "selected": true
+                            }
+                        ],
+                        "enhancedChoices": []
+                    }
+                ],
+                "distanceOptionLandmarkId": 332483
+            },
+            "filters": {
+                "applied": false,
+                "name": {
+                    "item": {
+                        "value": ""
+                    },
+                    "autosuggest": {
+                        "additionalUrlParams": {
+                            "resolved-location": "CITY:332483:UNKNOWN:UNKNOWN",
+                            "q-destination": "Berlin, Germany",
+                            "destination-id": "332483"
+                        }
+                    }
+                },
+                "starRating": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "value": 5
+                        },
+                        {
+                            "value": 4
+                        },
+                        {
+                            "value": 3
+                        },
+                        {
+                            "value": 2
+                        },
+                        {
+                            "value": 1
+                        }
+                    ]
+                },
+                "guestRating": {
+                    "range": {
+                        "min": {
+                            "defaultValue": 0
+                        },
+                        "max": {
+                            "defaultValue": 10
+                        }
+                    }
+                },
+                "landmarks": {
+                    "selectedOrder": [],
+                    "items": [
+                        {
+                            "label": "City center",
+                            "value": "332483"
+                        },
+                        {
+                            "label": "Alexanderplatz",
+                            "value": "37"
+                        },
+                        {
+                            "label": "Mercedes-Benz Arena",
+                            "value": "1677828"
+                        },
+                        {
+                            "label": "Kurfürstendamm",
+                            "value": "1774355"
+                        },
+                        {
+                            "label": "Berlin Central Station",
+                            "value": "1713120"
+                        },
+                        {
+                            "label": "Brandenburg Gate",
+                            "value": "1638543"
+                        },
+                        {
+                            "label": "Messe Berlin",
+                            "value": "1726245"
+                        },
+                        {
+                            "label": "Potsdamer Platz",
+                            "value": "1644509"
+                        },
+                        {
+                            "label": "Berlin Zoological Garden",
+                            "value": "1659244"
+                        },
+                        {
+                            "label": "Olympiastadion",
+                            "value": "1659129"
+                        },
+                        {
+                            "label": "Checkpoint Charlie",
+                            "value": "1763937"
+                        },
+                        {
+                            "label": "Charite",
+                            "value": "1727310"
+                        },
+                        {
+                            "label": "Friedrichstrasse",
+                            "value": "1701330"
+                        },
+                        {
+                            "label": "Hackescher Markt",
+                            "value": "1713314"
+                        },
+                        {
+                            "label": "Waldbuhne",
+                            "value": "1740364"
+                        },
+                        {
+                            "label": "Estrel Convention Center",
+                            "value": "1729125"
+                        },
+                        {
+                            "label": "Museum Island (Museumsinsel)",
+                            "value": "1677646"
+                        },
+                        {
+                            "label": "Gendarmenmarkt",
+                            "value": "1659267"
+                        },
+                        {
+                            "label": "Tempodrom",
+                            "value": "1713542"
+                        },
+                        {
+                            "label": "Columbiahalle",
+                            "value": "1713312"
+                        }
+                    ],
+                    "distance": []
+                },
+                "neighbourhood": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "Mitte",
+                            "value": "1662710"
+                        },
+                        {
+                            "label": "Unter den Linden",
+                            "value": "1713413"
+                        },
+                        {
+                            "label": "Adlershof",
+                            "value": "1691577"
+                        },
+                        {
+                            "label": "Diplomatic Quarter",
+                            "value": "1725595"
+                        },
+                        {
+                            "label": "Steglitz",
+                            "value": "1691636"
+                        },
+                        {
+                            "label": "Wedding",
+                            "value": "1691641"
+                        },
+                        {
+                            "label": "Charlottenburg",
+                            "value": "10871331"
+                        },
+                        {
+                            "label": "Kreuzberg",
+                            "value": "1701328"
+                        },
+                        {
+                            "label": "Friedrichshain",
+                            "value": "1662709"
+                        },
+                        {
+                            "label": "Prenzlauer Berg",
+                            "value": "1662712"
+                        },
+                        {
+                            "label": "Tegel",
+                            "value": "10979252"
+                        },
+                        {
+                            "label": "Spandau",
+                            "value": "1691634"
+                        },
+                        {
+                            "label": "Rudow",
+                            "value": "1691628"
+                        },
+                        {
+                            "label": "Schoeneberg",
+                            "value": "1713405"
+                        },
+                        {
+                            "label": "Tiergarten",
+                            "value": "1713049"
+                        },
+                        {
+                            "label": "Neukoelln",
+                            "value": "1691615"
+                        },
+                        {
+                            "label": "Charlottenburg-Wilmersdorf",
+                            "value": "1701329"
+                        },
+                        {
+                            "label": "Köpenick",
+                            "value": "1691607"
+                        },
+                        {
+                            "label": "Lichtenberg",
+                            "value": "1670488"
+                        },
+                        {
+                            "label": "Friedrichshain-Kreuzberg",
+                            "value": "10871402"
+                        },
+                        {
+                            "label": "Moabit",
+                            "value": "10565091"
+                        },
+                        {
+                            "label": "Tempelhof",
+                            "value": "1701327"
+                        },
+                        {
+                            "label": "Wilmersdorf",
+                            "value": "1662711"
+                        },
+                        {
+                            "label": "Marzahn-Hellersdorf",
+                            "value": "10565090"
+                        },
+                        {
+                            "label": "West Berlin Centre",
+                            "value": "10871312"
+                        },
+                        {
+                            "label": "Gesundbrunnen",
+                            "value": "1713399"
+                        },
+                        {
+                            "label": "Berlin-Britz",
+                            "value": "11032851"
+                        },
+                        {
+                            "label": "Grunewald",
+                            "value": "10992283"
+                        },
+                        {
+                            "label": "Weissensee",
+                            "value": "1713661"
+                        },
+                        {
+                            "label": "Friedenau",
+                            "value": "1691594"
+                        },
+                        {
+                            "label": "Halensee",
+                            "value": "11118557"
+                        },
+                        {
+                            "label": "Mariendorf",
+                            "value": "1713403"
+                        },
+                        {
+                            "label": "Lichterfelde",
+                            "value": "1691610"
+                        },
+                        {
+                            "label": "Schoeneweide",
+                            "value": "1713406"
+                        },
+                        {
+                            "label": "Marzahn",
+                            "value": "1691613"
+                        },
+                        {
+                            "label": "Tempelhof-Schoeneberg",
+                            "value": "10788415"
+                        },
+                        {
+                            "label": "Dahlem",
+                            "value": "1713398"
+                        },
+                        {
+                            "label": "Westend",
+                            "value": "1790209"
+                        },
+                        {
+                            "label": "Hohenschoenhausen",
+                            "value": "1691600"
+                        },
+                        {
+                            "label": "Karlshorst",
+                            "value": "1691602"
+                        },
+                        {
+                            "label": "Niederschoenhausen",
+                            "value": "1691616"
+                        },
+                        {
+                            "label": "Siemensstadt",
+                            "value": "1691633"
+                        },
+                        {
+                            "label": "Friedrichsfelde",
+                            "value": "1691595"
+                        },
+                        {
+                            "label": "Buckow",
+                            "value": "11118515"
+                        },
+                        {
+                            "label": "Schmargendorf",
+                            "value": "1691631"
+                        },
+                        {
+                            "label": "Lichtenrade",
+                            "value": "1691609"
+                        },
+                        {
+                            "label": "Altglienicke",
+                            "value": "1691578"
+                        },
+                        {
+                            "label": "Gruenau",
+                            "value": "1713401"
+                        },
+                        {
+                            "label": "Johannisthal",
+                            "value": "11118935"
+                        },
+                        {
+                            "label": "Rummelsburg",
+                            "value": "11118764"
+                        },
+                        {
+                            "label": "Kaulsdorf",
+                            "value": "1713402"
+                        },
+                        {
+                            "label": "Fennpfuhl",
+                            "value": "11118306"
+                        },
+                        {
+                            "label": "Hansaviertel",
+                            "value": "11118936"
+                        },
+                        {
+                            "label": "Bohnsdorf",
+                            "value": "1691582"
+                        },
+                        {
+                            "label": "Biesdorf",
+                            "value": "1691580"
+                        },
+                        {
+                            "label": "Niederschöneweide",
+                            "value": "11118513"
+                        },
+                        {
+                            "label": "Haselhorst",
+                            "value": "1691598"
+                        },
+                        {
+                            "label": "Wilhelmstadt",
+                            "value": "11118518"
+                        },
+                        {
+                            "label": "Mahlsdorf",
+                            "value": "1691612"
+                        },
+                        {
+                            "label": "Plänterwald",
+                            "value": "11118342"
+                        },
+                        {
+                            "label": "Victoriastadt",
+                            "value": "12464985"
+                        },
+                        {
+                            "label": "Schillerkiez",
+                            "value": "12462638"
+                        },
+                        {
+                            "label": "Gropiusstadt",
+                            "value": "11118344"
+                        },
+                        {
+                            "label": "Wrangelkiez",
+                            "value": "12474405"
+                        },
+                        {
+                            "label": "Tegelort",
+                            "value": "12462748"
+                        },
+                        {
+                            "label": "Spandau",
+                            "value": "12462752"
+                        },
+                        {
+                            "label": "Bergmannkiez",
+                            "value": "12466962"
+                        },
+                        {
+                            "label": "Gleimviertel",
+                            "value": "12467458"
+                        },
+                        {
+                            "label": "Konradshoehe",
+                            "value": "1691606"
+                        }
+                    ]
+                },
+                "accommodationType": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "Apart-hotels",
+                            "value": "20"
+                        },
+                        {
+                            "label": "Apartments",
+                            "value": "15"
+                        },
+                        {
+                            "label": "B&Bs",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Caravan parks",
+                            "value": "21"
+                        },
+                        {
+                            "label": "Chalets",
+                            "value": "10"
+                        },
+                        {
+                            "label": "Cottages",
+                            "value": "11"
+                        },
+                        {
+                            "label": "Guest houses",
+                            "value": "30"
+                        },
+                        {
+                            "label": "Hostels",
+                            "value": "12"
+                        },
+                        {
+                            "label": "Hotels",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Houseboats",
+                            "value": "16"
+                        },
+                        {
+                            "label": "Motels",
+                            "value": "7"
+                        },
+                        {
+                            "label": "Pensions",
+                            "value": "25"
+                        },
+                        {
+                            "label": "Resorts",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Vacation homes",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Villas",
+                            "value": "14"
+                        }
+                    ]
+                },
+                "facilities": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "24-hour front desk",
+                            "value": "2063"
+                        },
+                        {
+                            "label": "Airport transfers",
+                            "value": "513"
+                        },
+                        {
+                            "label": "Bar",
+                            "value": "515"
+                        },
+                        {
+                            "label": "Bathtub in room",
+                            "value": "517"
+                        },
+                        {
+                            "label": "Breakfast included",
+                            "value": "2048"
+                        },
+                        {
+                            "label": "Business facilities",
+                            "value": "519"
+                        },
+                        {
+                            "label": "Childcare",
+                            "value": "521"
+                        },
+                        {
+                            "label": "Connecting rooms available",
+                            "value": "523"
+                        },
+                        {
+                            "label": "Cribs available",
+                            "value": "525"
+                        },
+                        {
+                            "label": "Electric vehicle charging point",
+                            "value": "1073743315"
+                        },
+                        {
+                            "label": "Gym",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Internet Access",
+                            "value": "8"
+                        },
+                        {
+                            "label": "Kitchen",
+                            "value": "32"
+                        },
+                        {
+                            "label": "Meeting Facilities",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Non-smoking",
+                            "value": "529"
+                        },
+                        {
+                            "label": "Parking",
+                            "value": "134234112"
+                        },
+                        {
+                            "label": "Parking available",
+                            "value": "16384"
+                        },
+                        {
+                            "label": "Pet Friendly",
+                            "value": "64"
+                        },
+                        {
+                            "label": "Pool",
+                            "value": "128"
+                        },
+                        {
+                            "label": "Restaurant",
+                            "value": "256"
+                        },
+                        {
+                            "label": "Smoking areas",
+                            "value": "537"
+                        },
+                        {
+                            "label": "Spa",
+                            "value": "539"
+                        },
+                        {
+                            "label": "WiFi included",
+                            "value": "527"
+                        }
+                    ]
+                },
+                "accessibility": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "Accessibility equipment for the deaf",
+                            "value": "2097152"
+                        },
+                        {
+                            "label": "Accessible bathroom",
+                            "value": "131072"
+                        },
+                        {
+                            "label": "Accessible parking",
+                            "value": "524288"
+                        },
+                        {
+                            "label": "Accessible path of travel",
+                            "value": "65536"
+                        },
+                        {
+                            "label": "Braille or raised signage",
+                            "value": "4194304"
+                        },
+                        {
+                            "label": "In-room accessibility",
+                            "value": "1048576"
+                        },
+                        {
+                            "label": "Roll-in shower",
+                            "value": "262144"
+                        },
+                        {
+                            "label": "Wheelchair accessible rooms",
+                            "value": "541"
+                        }
+                    ]
+                },
+                "themesAndTypes": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "Adventure",
+                            "value": "18"
+                        },
+                        {
+                            "label": "Beach",
+                            "value": "6"
+                        },
+                        {
+                            "label": "Boutique",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Business",
+                            "value": "14"
+                        },
+                        {
+                            "label": "Family-friendly",
+                            "value": "25"
+                        },
+                        {
+                            "label": "Golf",
+                            "value": "26"
+                        },
+                        {
+                            "label": "Historic",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Hot Springs",
+                            "value": "22"
+                        },
+                        {
+                            "label": "LGBTQ Welcoming",
+                            "value": "21"
+                        },
+                        {
+                            "label": "Luxury",
+                            "value": "15"
+                        },
+                        {
+                            "label": "Romantic",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Spa Hotel",
+                            "value": "27"
+                        }
+                    ]
+                },
+                "price": {
+                    "label": "Nightly Price",
+                    "range": {
+                        "min": {
+                            "defaultValue": 0
+                        },
+                        "max": {
+                            "defaultValue": 500
+                        },
+                        "increments": 5
+                    },
+                    "multiplier": 1
+                },
+                "paymentPreference": {
+                    "items": [
+                        {
+                            "label": "Pay with Hotels.com gift card",
+                            "value": "gc"
+                        }
+                    ]
+                },
+                "welcomeRewards": {
+                    "label": "Hotels.com® Rewards",
+                    "items": [
+                        {
+                            "label": "Collect stamps",
+                            "value": "collect"
+                        },
+                        {
+                            "label": "Redeem reward* nights",
+                            "value": "redeem"
+                        }
+                    ]
+                }
+            },
+            "pointOfSale": {
+                "currency": {
+                    "code": "USD",
+                    "symbol": "$",
+                    "separators": ",.",
+                    "format": "${0}"
+                }
+            },
+            "miscellaneous": {
+                "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=332483&hotelIds=387452,360098,477632,1182012256,558976,634390016,391514,2369230208,2369234432,203117,197485,549905,211436,478524,134457,450587,303749,228083,499936,397586,203887,218533,252625,438361,2369235616&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=ed14294c-a5fe-4cb5-a27a-80a5bc4e37a8&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=en_US&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=www.hotels.com&userIP=127.0.0.1&action=pageview&publisher=expedia&programId=1",
+                "showLegalInfoForStrikethroughPrices": true,
+                "legalInfoForStrikethroughPrices": "The struck-out price is based on the property’s standard rate on our app, as determined and supplied by the property."
+            },
+            "pageInfo": {
+                "pageType": "dateless"
+            }
+        },
+        "common": {
+            "pointOfSale": {
+                "numberSeparators": ",.",
+                "brandName": "Hotels.com"
+            },
+            "tracking": {
+                "omniture": {
+                    "s.prop33": "D=v33",
+                    "s.prop32": "D=v43",
+                    "s.prop74": "search result without dates | ms shown | N",
+                    "s.products": "LOCAL;4538932,MULTISOURCE;3911650,MULTISOURCE;9277019",
+                    "s.eVar16": "Mob :: aApp",
+                    "s.eVar40": "D=v0",
+                    "s.eVar41": "USD",
+                    "s.eVar63": "33ca2ffa-db4e-49cb-8c8c-f16593b3db80",
+                    "s.eVar42": "dateless",
+                    "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+                    "s.eVar43": "en_US|HCOM_US|www.hotels.com",
+                    "s.eVar2": "Berlin, Germany",
+                    "s.eVar24": "MCTC=20;TU=NA;PDID=NULL;MVT=",
+                    "s.eVar7": "",
+                    "s.server": "www.hotels.com",
+                    "s.eVar6": "332483",
+                    "s.prop29": "D=v42",
+                    "s.prop27": "ed14294c-a5fe-4cb5-a27a-80a5bc4e37a8",
+                    "s.eVar9": "Price - low to high",
+                    "s.eVar69": "Mob :: aApp",
+                    "s.currencyCode": "USD",
+                    "s.eVar26": "US:GA:ALPHARETTA:524",
+                    "s.eVar29": "Mob :: aApp",
+                    "s.prop9": "1722",
+                    "s.eVar95": "Unknown",
+                    "s.prop7": "979",
+                    "s.eVar31": "D=v0",
+                    "s.eVar32": "D=v0",
+                    "s.eVar33": "search result without dates",
+                    "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.000,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.1,M7552:023.001,M7870:000.000,M8130:000.001,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9434:000.000,M9469:000.000,M9508:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:000.000,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.000",
+                    "s.eVar13": "389367",
+                    "s.events": "event324,event320,event318",
+                    "s.prop18": "D=v6",
+                    "s.prop5": "389367",
+                    "s.prop15": "",
+                    "s.prop3": "Berlin, Germany",
+                    "s.prop14": "D=v7",
+                    "s.prop36": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+                    "s.eVar93": "aws.us-west-2.unknown",
+                    "s.prop2": "Price - low to high"
+                }
+            }
+        }
+    }
+}
