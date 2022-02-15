@@ -1,7 +1,9 @@
 var axios = require("axios").default;
+// import hotels from "./hotels.json";
 
 class SearchHotel {
   async search(searchQuery) {
+    // console.log(searchQuery);
     var results = null;
 
     await axios
@@ -18,8 +20,8 @@ class SearchHotel {
       })
       .then((response) => {
         results = response.data;
+        console.log(response.data);
         return results;
-        //   console.log(response.data);
       })
       .catch((error) => {
         console.log(error);
@@ -27,14 +29,7 @@ class SearchHotel {
       });
 
     return results;
-    // await axios
-    //   .request(options)
-    //   .then(function (response) {
-    //     console.log(response.data);
-    //   })
-    //   .catch(function (error) {
-    //     console.error(error);
-    //   });
+    // return hotels.letters;
   }
   async getHotelImages(hotelId) {
     var results = null;
@@ -52,8 +47,8 @@ class SearchHotel {
       .then((response) => {
         // console.log("resd", response);
         results = response;
+        console.log(response.data);
         return results;
-        //   console.log(response.data);
       })
       .catch((error) => {
         console.log(error);
@@ -85,8 +80,39 @@ class SearchHotel {
       })
       .then((response) => {
         results = response.data;
+        console.log(response.data);
         return results;
-        //   console.log(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+        return null;
+      });
+
+    return results;
+  }
+  async getHotelDetails(hotelId, checkIn, checkOut, adults1) {
+    var results = null;
+    // s
+
+    await axios
+      .get(process.env.VUE_APP_SEARCH_HOTEL_DETAIL_URL, {
+        headers: {
+          "x-rapidapi-host": process.env.VUE_APP_HOST_HEADER,
+          "x-rapidapi-key": process.env.VUE_APP_HOST_HEADER_KEY,
+        },
+        params: {
+          id: hotelId,
+          checkIn: checkIn,
+          checkOut: checkOut,
+          adults1: adults1,
+          currency: "USD",
+          locale: "en_US",
+        },
+      })
+      .then((response) => {
+        results = response.data;
+        console.log(response.data);
+        return results;
       })
       .catch((error) => {
         console.log(error);

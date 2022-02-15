@@ -33,11 +33,8 @@
               {{ hotel.address.streetAddress }}-
               {{ hotel.address.locality }}
             </h5>
-            <router-link
-              class="btn btn-primary"
-              :to="{ name: 'Hotels', params: { hotelid: hotel.id } }"
-            >
-              Book Now
+            <router-link :to="{ name: 'Hotels', params: { id: hotel.id } }">
+              Book now
             </router-link>
           </div>
           <div class="col-md-4">
@@ -72,11 +69,11 @@ export default {
     var departDate = ref(route.query.departDate);
     var returnDate = ref(route.query.returnDate);
     var adults = ref(route.query.adults);
-    var properties = ref([]);
+    var properties = c;
     var hotels = ref([]);
 
     const getPropertiesList = async () => {
-      SearchHotel.getPropertiesList(
+      await SearchHotel.getPropertiesList(
         location.value,
         departDate.value,
         returnDate.value,
