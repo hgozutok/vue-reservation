@@ -33,10 +33,12 @@
               {{ hotel.address.streetAddress }}-
               {{ hotel.address.locality }}
             </h5>
-
-            <a href="#" class="btn btn-primary">
-              Book Now <i class="fas fa-arrow-right"></i>
-            </a>
+            <router-link
+              class="btn btn-primary"
+              :to="{ name: 'Hotels', params: { hotelid: hotel.id } }"
+            >
+              Book Now
+            </router-link>
           </div>
           <div class="col-md-4">
             <div>
