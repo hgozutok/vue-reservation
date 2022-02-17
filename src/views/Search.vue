@@ -24,7 +24,13 @@
 
           <div class="col-md-4">
             <h3 class="card-title">
-              <router-link :to="{ name: 'Hotels', params: { id: hotel.id } }">
+            <button class="btn-primary" >
+            </button>
+              <router-link :to="{ name: 'Hotels', query:{ location,
+           departDate,
+           leaveDate,
+           adults,},
+            params: { id: hotel.id } }">
                 {{ hotel.name }}
               </router-link>
             </h3>
@@ -33,7 +39,10 @@
               {{ hotel.address.streetAddress }}-
               {{ hotel.address.locality }}
             </h5>
-            <router-link :to="{ name: 'Hotels', params: { id: hotel.id } }">
+            <router-link :to="{ name: 'Hotels', query:{location,
+           departDate,
+           leaveDate,
+           adults}, params: { id: hotel.id } }">
               Book now
             </router-link>
           </div>
@@ -67,16 +76,30 @@ export default {
     const route = useRoute();
     var location = ref(route.query.location);
     var departDate = ref(route.query.departDate);
-    var returnDate = ref(route.query.returnDate);
+    var leaveDate = ref(route.query.leaveDate);
     var adults = ref(route.query.adults);
-    var properties = c;
+    var properties = ref([]);
     var hotels = ref([]);
 
+
+  // const handleHotel = (id) => {
+  //     router.push({
+  //       path: "/hotels/"+id,
+  //       query: {
+  //         location: location.value,
+  //         departDate: departDate.value,
+  //         leaveDate: returnDate.value,
+  //         adults: adults.value,
+  //       },
+  //     });
+  //   };
+
+
     const getPropertiesList = async () => {
-      await SearchHotel.getPropertiesList(
+      SearchHotel.getPropertiesList(
         location.value,
         departDate.value,
-        returnDate.value,
+        leaveDate.value,
         adults.value
       ).then((response) => {
         properties.value = response.data;
@@ -93,7 +116,7 @@ export default {
     return {
       location,
       departDate,
-      returnDate,
+      leaveDate,
       adults,
       properties,
       hotels,

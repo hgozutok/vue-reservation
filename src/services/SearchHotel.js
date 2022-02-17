@@ -46,7 +46,7 @@ class SearchHotel {
       })
       .then((response) => {
         // console.log("resd", response);
-        results = response;
+        results = response.data;
         console.log(response.data);
         return results;
       })
