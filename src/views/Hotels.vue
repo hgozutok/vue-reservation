@@ -210,23 +210,56 @@ export default {
       ).then((response) => {
         hotel.value = response;
         console.log("htoelDetails", response);
-        pdpHeader.value = response.data.body.pdpHeader;
-        overview.value = response.data.body.overview;
-        hotelWelcomeRewards.value = response.data.body.hotelWelcomeRewards;
-        propertyDescription.value = response.data.body.propertyDescription;
-        guestReviews.value = response.data.body.guestReviews;
-        atAGlance.value = response.data.body.atAGlance;
-        amenities.value = response.data.body.amenities;
-        hygieneAndCleanliness.value = response.data.body.hygieneAndCleanliness;
-        smallPrint.value = response.data.body.smallPrint;
-        specialFeatures.value = response.data.body.specialFeatures;
-        miscellaneous.value = response.data.body.miscellaneous;
-        pageInfo.value = response.data.body.pageInfo;
-        hotelBadges.value = response.hotelBadges;
-        unavailable.value = response.unavailable;
-        roomsAndRates.value = response.data.body.roomsAndRates;
+        response.data.body.pdpHeader
+          ? (pdpHeader.value = response.data.body.pdpHeader)
+          : (pdpHeader.value = {});
+        response.data.body.overview
+          ? (overview.value = response.data.body.overview)
+          : (overview.value = {});
+        response.data.body.hotelWelcomeRewards
+          ? (hotelWelcomeRewards.value = response.data.body.hotelWelcomeRewards)
+          : (hotelWelcomeRewards.value = {});
+        response.data.body.propertyDescription
+          ? (propertyDescription.value = response.data.body.propertyDescription)
+          : (propertyDescription.value = {});
+        response.data.body.guestReviews
+          ? (guestReviews.value = response.data.body.guestReviews)
+          : (guestReviews.value = {});
+        response.data.body.atAGlance
+          ? (atAGlance.value = response.data.body.atAGlance)
+          : (atAGlance.value = {});
+        response.data.body.amenities
+          ? (amenities.value = response.data.body.amenities)
+          : (amenities.value = {});
+        response.data.body.hygieneAndCleanliness
+          ? (hygieneAndCleanliness.value =
+              response.data.body.hygieneAndCleanliness)
+          : (hygieneAndCleanliness.value = {});
+        response.data.body.smallPrint
+          ? (smallPrint.value = response.data.body.smallPrint)
+          : (smallPrint.value = {});
+        response.data.body.specialFeatures
+          ? (specialFeatures.value = response.data.body.specialFeatures)
+          : (specialFeatures.value = {});
+        response.data.body.miscellaneous
+          ? (miscellaneous.value = response.data.body.miscellaneous)
+          : (miscellaneous.value = {});
+        response.data.body.pageInfo
+          ? (pageInfo.value = response.data.body.pageInfo)
+          : (pageInfo.value = {});
+        response.hotelBadges
+          ? (hotelBadges.value = response.hotelBadges)
+          : (hotelBadges.value = {});
+        response.unavailable
+          ? (unavailable.value = response.unavailable)
+          : (unavailable.value = {});
+        response.data.body.roomsAndRates
+          ? (roomsAndRates.value = response.data.body.roomsAndRates)
+          : (roomsAndRates.value = {});
 
-        transportations.value = response.transportations;
+        response.transportations
+          ? (transportations.value = response.transportations)
+          : (transportations.value = {});
         console.log(hotel.value);
         // pageLoaded.value = true;
         SearchHotel.getHotelImages(hotelid.value).then((response) => {
@@ -236,7 +269,9 @@ export default {
           //   images.push(item.baseUrl.replace("{size}", item.sizes[1].suffix));
           // });
 
-          hotelImages.value = response.hotelImages;
+          response.hotelImages
+            ? (hotelImages.value = response.hotelImages)
+            : (hotelImages.value = {});
 
           console.log(response.hotelImages);
         });
