@@ -12,7 +12,9 @@
       <!-- hotel name and price -->
       <div v-if="pageLoaded === true" class="row">
         <div class="col-md-8">
-          <h2>{{ propertyDescription.name }}</h2>
+          <h2 v-if="propertyDescription">
+            {{ propertyDescription.name }}
+          </h2>
           <!-- <h4>{{ propertyDescription.starRatingTitle }}</h4> -->
           <h4>{{ propertyDescription.tagline[0] }}</h4>
         </div>
@@ -62,13 +64,19 @@
               <h4>Rooms</h4>
 
               <div v-bind:key="room" v-for="room in roomsAndRates.rooms">
-                <h4>{{ room.name }}</h4>
+                <h4 room.name>{{ room.name }}</h4>
                 <h6>Description</h6>
-                {{ room.additionalInfo.description }}
+                <p>
+                  {{ room.additionalInfo.description }}
+                </p>
                 <h6>Room Type</h6>
-                {{ room.bedChoices.mainOptions[0] }}
+                <p>
+                  <!-- {{ room.bedChoices.mainOptions[0] }} -->
+                </p>
                 <h6>Room Type</h6>
-                {{ room.ratePlans[0].cancellation.info }}
+                <p>
+                  {{ room.ratePlans[0].cancellation.info }}
+                </p>
               </div>
             </div>
           </div>
