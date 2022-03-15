@@ -24,13 +24,14 @@
 
           <div class="col-md-4">
             <h3 class="card-title">
-            <button class="btn-primary" >
-            </button>
-              <router-link :to="{ name: 'Hotels', query:{ location,
-           departDate,
-           leaveDate,
-           adults,},
-            params: { id: hotel.id } }">
+              <button class="btn-primary"></button>
+              <router-link
+                :to="{
+                  name: 'Hotels',
+                  query: { location, departDate, leaveDate, adults },
+                  params: { id: hotel.id },
+                }"
+              >
                 {{ hotel.name }}
               </router-link>
             </h3>
@@ -39,10 +40,13 @@
               {{ hotel.address.streetAddress }}-
               {{ hotel.address.locality }}
             </h5>
-            <router-link :to="{ name: 'Hotels', query:{location,
-           departDate,
-           leaveDate,
-           adults}, params: { id: hotel.id } }">
+            <router-link
+              :to="{
+                name: 'Hotels',
+                query: { location, departDate, leaveDate, adults },
+                params: { id: hotel.id },
+              }"
+            >
               Book now
             </router-link>
           </div>
@@ -59,7 +63,7 @@
 </template>
 
 <script>
-import { onMounted } from "@vue/runtime-core";
+import { onMounted, watch } from "@vue/runtime-core";
 import Navbar from "../components/nav/Navbar.vue";
 import SearchCard from "../components/search/SearchCard.vue";
 import SearchHotel from "../services/SearchHotel";
@@ -81,37 +85,52 @@ export default {
     var properties = ref([]);
     var hotels = ref([]);
 
-
-  // const handleHotel = (id) => {
-  //     router.push({
-  //       path: "/hotels/"+id,
-  //       query: {
-  //         location: location.value,
-  //         departDate: departDate.value,
-  //         leaveDate: returnDate.value,
-  //         adults: adults.value,
-  //       },
-  //     });
-  //   };
-
+    // const handleHotel = (id) => {
+    //     router.push({
+    //       path: "/hotels/"+id,
+    //       query: {
+    //         location: location.value,
+    //         departDate: departDate.value,
+    //         leaveDate: returnDate.value,
+    //         adults: adults.value,
+    //       },
+    //     });
+    //   };
 
     const getPropertiesList = async () => {
-      SearchHotel.getPropertiesList(
-        location.value,
-        departDate.value,
-        leaveDate.value,
-        adults.value
-      ).then((response) => {
-        properties.value = response.data;
-        properties.value.body.searchResults.results.forEach((hotel) => {
-          hotels.value.push(hotel);
+      if (location.value) {
+        SearchHotel.getPropertiesList(
+          location.value,
+          departDate.value,
+          leaveDate.value,
+          adults.value
+        ).then((response) => {
+          console.log(response);
+          properties.value = response.data;
+          response.data.body.searchResults.results.forEach((hotel) => {
+            hotels.value.push(hotel);
+          });
+          console.log(response);
+          console.log(hotels.value[0].optimizedThumbUrls.srpDesktop);
         });
-        console.log(response);
-        console.log(hotels.value[0].optimizedThumbUrls.srpDesktop);
-      });
+      }
     };
+    watch(
+      () => route.query.location,
+      (newl) => {
+        location.value = newl;
+        console.log(newl);
+        getPropertiesList();
+      }
+    );
+
     onMounted(() => {
-      getPropertiesList();
+      console.log(location.value);
+      location.value = route.query.location;
+      departDate.value = route.query.departDate;
+      leaveDate.value = route.query.leaveDate;
+      adults.value = route.query.adults;
+      location.value ? getPropertiesList() : null;
     });
     return {
       location,

@@ -5,14 +5,16 @@
     </div>
   </div>
   <h1>Hotel Details</h1>
-  {{ $route.params.id }}
-  {{ pageLoaded }}
+
   <div class="row">
     <div class="container">
       <!-- hotel name and price -->
-      <div v-if="pageLoaded === true" class="row">
+      <div
+        v-if="pageLoaded === true && propertyDescription != null"
+        class="row"
+      >
         <div class="col-md-8">
-          <h2 v-if="propertyDescription">
+          <h2>
             {{ propertyDescription.name }}
           </h2>
           <!-- <h4>{{ propertyDescription.starRatingTitle }}</h4> -->
@@ -32,7 +34,7 @@
         </div>
       </div>
       <!-- hotel images and map -->
-      <div v-if="pageLoaded === true" class="row">
+      <div v-if="pageLoaded === true && hotelImages.length > 0" class="row">
         <div class="col-md-8">
           <div class="card responsive">
             <Carousel :value="hotelImages" :numVisible="1" :numScroll="1">
@@ -59,7 +61,7 @@
               </template>
             </Carousel>
           </div>
-          <div v-if="pageLoaded === true" class="row">
+          <div v-if="pageLoaded === true && roomsAndRates != null" class="row">
             <div class="col-md-8">
               <h4>Rooms</h4>
 
@@ -146,7 +148,7 @@
           </div>
         </div>
       </div>
-      <div v-if="pageLoaded === true" class="row">
+      <div v-if="pageLoaded === true && overview != null" class="row">
         {{
           overview.overviewSections[0].content.forEach(function (item) {
             return item.text;
