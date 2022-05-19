@@ -66,7 +66,7 @@
           alt="couch"
           width="60"
         />
-        <h3>Living room services</h3>
+        <h3>Hotel room services</h3>
         <p style="text-align: center">
           Non mollis condimentum ornare curabitur. Massa elit rutrum iaculis,
           bibendum hac curabitur suscipit.
@@ -87,7 +87,7 @@
           alt="couch"
           width="60"
         />
-        <h3>Room services</h3>
+        <h3>Cafeteria services</h3>
         <p style="text-align: center">
           Felis mi eget nunc suspendisse, ut lacus. Integer in et, urna primis
           a.
